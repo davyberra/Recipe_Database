@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.tasteofhome.com/wp-content/uploads/2018/01/Banana-Blueberry-Pancakes_EXPS_BMZ20_32350_B10_25_2b-1-696x696.jpg">
+                <img src="Images/C9FAFBFF-5585-4D06-AB7C-866055FD0137-3848-000004069FEEF4D1/8B29B8AF-CE1E-4A61-B6A7-79C3E507A13D-3848-000004076E88225D.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Banana Blueberry Pancakes</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Breakfast, Quick</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">15 min</span>
+            <b>Cook Time: </b><span itemprop="">prep: 15 min. cook: 5 min./batch</span>
+            <b>Servings: </b><span itemprop="">14 pancakes</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.tasteofhome.com/recipes/banana-blueberry-pancakes/">
+                        <span itemprop="author">tasteofhome.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> cup whole wheat flour</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup all-purpose flour</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons sugar</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons baking powder</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> teaspoon salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> large egg, room temperature, lightly beaten</p><p class="line" itemprop="recipeIngredient"><strong>1-1/4</strong> cups fat-free milk</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> medium ripe bananas, mashed</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon vanilla extract</p><p class="line" itemprop="recipeIngredient"><strong>1-1/2</strong> cups fresh or frozen blueberries</p><p class="line" itemprop="recipeIngredient">Optional: Maple syrup and sliced bananas</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">In a large bowl, combine the flours, sugar, baking powder and salt. </p><p class="line">Combine the egg, milk, bananas and vanilla; stir into dry ingredients just until moistened.</p><p class="line">Pour batter by 1/4 cupfuls onto a hot griddle coated with cooking spray; sprinkle with blueberries. </p><p class="line">Turn when bubbles form on top; cook until second side is golden brown. If desired, serve with syrup and sliced bananas. </p><p class="line">Freeze option: Freeze cooled pancakes between layers of waxed paper in a resealable freezer container. To use, place pancakes on an ungreased baking sheet, cover with foil, and reheat in a preheated 375° oven 6-10 minutes. Or, place a stack of 3 pancakes on a microwave-safe plate and microwave on high for 1-1/4 to 1-1/2 minutes or until heated through.<br/></p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Fat: 2g fat (0 saturated fat)<br/>Calories: 195 calories<br/>Sodium: 317mg sodium<br/>Fiber: 4g fiber)<br/>Carbohydrate: 41g carbohydrate (19g sugars<br/>Cholesterol: 31mg cholesterol<br/>Protein: 6g protein. Diabetic Exchanges: 1-1/2 starch</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

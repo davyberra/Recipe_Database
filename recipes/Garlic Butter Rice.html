@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.spendwithpennies.com/wp-content/uploads/2017/07/Garlic-Butter-Rice-1-143x200.jpg">
+                <img src="Images/79A1AC20-C6E8-4788-A280-38D6AAD7A6F7-530-0000007565848183/281C78FB-CA0F-430A-B04E-3944BBF91407-530-000000757298CE07.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Garlic Butter Rice</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Rice</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">5 minutes</span>
+            <b>Cook Time: </b><span itemprop="">15 minutes</span>
+            <b>Servings: </b><span itemprop="">Servings 4 as a side</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.spendwithpennies.com/garlic-butter-rice/">
+                        <span itemprop="author">spendwithpennies.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>6 – 8</strong> cloves garlic very finely sliced</p><p class="line" itemprop="recipeIngredient"><strong>2 – 3</strong> tablespoons vegetable oil or canola, grapeseed or other neutral flavoured oil</p><p class="line" itemprop="recipeIngredient"><strong>2 ½</strong> teaspoons garlic minced</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> tablespoons butter salted or unsalted, divided</p><p class="line" itemprop="recipeIngredient"><strong>1 ½</strong> cups white rice medium or long grain is best (raw)</p><p class="line" itemprop="recipeIngredient"><strong>2 ½</strong> cups chicken broth</p><p class="line" itemprop="recipeIngredient"><strong>¼ – ½</strong> cup scallions finely sliced</p><p class="line" itemprop="recipeIngredient">Salt</p><p class="line" itemprop="recipeIngredient">White pepper</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Heat oil in a large saucepan over medium heat. Add garlic slices and saute, moving constantly, until golden and crisp. Transfer to paper towels to drain.</p><p class="line">Pour out excess oil then return to the stove.</p><p class="line">Add 2 tbsp butter. Once melted, add garlic. Cook for 1 ½ minutes or until the garlic starts to turn light golden and the butter is well infused with garlic flavour.</p><p class="line">Add rice, stir to coat in garlic butter.</p><p class="line">Add broth, place lid on saucepan. Bring to simmer then immediately turn down to medium low.</p><p class="line">Cook for 12 – 15 minutes or until liquid is all absorbed by the rice. Tilt saucepan to check.</p><p class="line">Remove from stove but leave lid on. Rest for 10 minutes.</p><p class="line">Fluff with fork, transfer into serving bowl. Stir through remaining butter and scallions, or garnish as per photos. Sprinkle with crispy garlic, salt, and pepper. Serve.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Calories: 374, Carbohydrates: 58g, Protein: 6g, Fat: 12g, Saturated Fat: 7g, Cholesterol: 30mg, Sodium: 642mg, Potassium: 215mg, Vitamin A: 350IU, Vitamin C: 12.3mg, Calcium: 43mg, Iron: 0.9mg</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

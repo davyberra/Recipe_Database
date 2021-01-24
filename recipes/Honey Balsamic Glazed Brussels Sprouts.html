@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/honey-balsamic-glazed-brussels-sprouts-horizontal-1538775718.jpg?resize=480:*">
+                <img src="Images/A38C1FFD-F0AA-4EB9-B489-C7DB1D8D8FD8/1235889E-B631-4E6B-BB2C-5553B96BAE4B.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Honey Balsamic Glazed Brussels Sprouts</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Veggies</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">10</span>
+            <b>Cook Time: </b><span itemprop="">0 hours</span>
+            <b>Servings: </b><span itemprop="">Yields: 4</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.delish.com/holiday-recipes/thanksgiving/a23013160/honey-balsamic-glazed-brussels-sprouts-recipe/">
+                        <span itemprop="author">Delish.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> lb. Brussels sprouts, cleaned and halved</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tbsp. extra-virgin olive oil</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> c. balsamic vinegar</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tbsp. honey</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tbsp. dijon mustard</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cloves garlic, minced</p><p class="line" itemprop="recipeIngredient">Kosher salt</p><p class="line" itemprop="recipeIngredient">Freshly ground black pepper</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">In a large skillet over medium heat, heat oil. Add Brussels sprouts, cut side down, and cook undisturbed, 3 to 4 minutes, until golden on the bottom. Add ¼ cup water and cover. Let Brussels sprouts steam until tender, 3 minutes. If the skillet seems dry, add more water a tablespoon at a time.</p><p class="line">Remove sprouts from skillet and set aside on a plate. Add vinegar, honey, mustard, and garlic and whisk to combine. Bring to a simmer and cook until thick and syrupy, 6 to 8 minutes. Return sprouts to pan, toss to coat, and heat through, 2 to 3 more minutes. Season with salt and pepper and serve immediately.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

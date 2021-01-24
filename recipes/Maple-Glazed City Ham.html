@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.seriouseats.com/2014/12/20171201-holiday-city-ham-vicky-wasik-4.jpg">
+                <img src="Images/87B3AB0B-1CF2-4643-BA2D-EB92DA9CE499/A34A7E23-01E6-45F0-9F67-64CF99231175.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Maple-Glazed City Ham</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">All-Day/Multi-Day Affairs, Entrees/Full Meals</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">20 minutes</span>
+            <b>Cook Time: </b><span itemprop="">3 hours</span>
+            <b>Servings: </b><span itemprop="">Serves 12 to 16</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.seriouseats.com/recipes/2010/12/maple-glazed-city-ham-recipe.html">
+                        <span itemprop="author">Seriouseats.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> shank-end, spiral-sliced, bone-in ham (see note), 6 to 8 pounds (2.7 to 3.6kg)</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup (120ml) maple syrup</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup (120ml) dark molasses</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons (30ml) whole grain mustard</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> teaspoon ground cinnamon</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">1. Adjust oven rack to lower position and preheat oven to 250°F (120°C). Place ham in an oven bag or wrap tightly with foil and place on a rack set in a rimmed baking sheet. Transfer to oven and cook until ham reaches 120°F (49°C) in the center, about 2 1/2 hours.</p><p class="line">2. Meanwhile, combine maple syrup, molasses, mustard, and cinnamon in a small saucepan. Bring to a boil over high heat, reduce to a simmer, and cook, stirring occasionally, until thick and syrupy, about 15 minutes.</p><p class="line">3. When ham has reached 120°F, remove from oven and unwrap. Paint with 1/3 of sauce, increase oven temperature to 400°F (200°C), and bake 5 minutes. Paint with 1/3 more glaze and bake until crisp and shiny, 10 minutes longer. Remove from oven and paint with remaining glaze. Tent with foil and allow to rest 15 minutes before slicing and serving.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

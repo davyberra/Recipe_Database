@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.budgetbytes.com/wp-content/uploads/2015/02/Pasta-with-Creamy-Pumpkin-Sauce-skillet.jpg">
+                <img src="Images/DD147587-DF2D-475F-93F8-9A576237931C/C1709423-65E6-4F48-8F31-4E7B3A6C0BE1.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Pasta with Creamy Pumpkin Sauce</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="4">&#9733;&#9733;&#9733;&#9733;</p>
+            <p itemprop="recipeCategory" class="categories">Pasta, Pasta, Quick, Vegan/Vegetarian</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">5 mins</span>
+            <b>Cook Time: </b><span itemprop="">15 mins</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.budgetbytes.com/pasta-creamy-pumpkin-sauce/">
+                        <span itemprop="author">Budgetbytes.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>2</strong> cloves garlic ($0.16)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> Tbsp butter ($0.13)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup pumpkin purée ($0.78)</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup chicken broth* ($0.12)</p><p class="line" itemprop="recipeIngredient"><strong>1/8</strong> tsp nutmeg ($0.02)</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> tsp chili powder** ($0.03)</p><p class="line" itemprop="recipeIngredient">Pinch cayenne pepper ($0.02)</p><p class="line" itemprop="recipeIngredient">Freshly cracked black pepper ( $0.05)</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> Tbsp half &amp; half or cream ($0.19)</p><p class="line" itemprop="recipeIngredient"><strong>8</strong> oz. pasta ($0.70)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Begin boiling a large pot of water for your pasta. Once the water is boiling, add the pasta and boil until al dente (7-10 minutes). Drain in a colander.</p><p class="line">While waiting for the water to boil, prepare the sauce. Mince two cloves of garlic and add them to a large skillet with one tablespoon of butter. Sauté over medium-low heat for 1-2 minutes, or just until the garlic is soft and fragrant.</p><p class="line">Add the pumpkin purée and chicken broth to the skillet and stir to combine. Add the nutmeg, chili powder, cayenne pepper, and some freshly cracked black pepper. Stir in the spices and let the sauce simmer over medium-low heat while the pasta cooks (about 10 minutes), stirring occasionally.</p><p class="line">Once the pasta is finished cooking and is draining in a colander, add the half and half or cream to the skillet and stir it into the pumpkin sauce. Taste the sauce and add salt if needed (this will depend on the type of broth you use). Finally, stir the drained pasta in to the sauce and serve.</p><p class="line">STEP BY STEP PHOTOS</p><p class="line">Start by mincing two cloves of garlic and sautéing them with one tablespoon butter over medium-low heat in a large skillet. Sauté for only one to two minutes, just to soften the garlic up some and make it nice and fragrant.</p><p class="line">Oh yes, and begin boiling the water for the pasta. The sauce will cook in the short amount of time that it takes the pasta to cook, so get that going first. Once the water boils, add 8oz. pasta, and cook till al dente. Drain it in a colander. Continue with the sauce as the pasta boils…</p><p class="line">Next, add one cup pumpkin purée (about one cup, you can actually use a little less or a little more and it will still work fine) and one cup chicken broth to the skillet. Stir until those two are combined, then add 1/8 tsp nutmeg, 1/4 tsp chili powder, a pinch of cayenne, and some freshly cracked black pepper. Stir the spices in, then let the sauce simmer over medium-low while the pasta cooks (about 10 minutes), stirring occasionally. The sauce will thicken slightly as it simmers and some of the moisture evaporates.</p><p class="line">Finally, once the pasta has finished cooking and it’s in the colander draining, stir two tablespoons of half &amp; half (or cream) into the pumpkin sauce. Taste the sauce and add salt if needed.</p><p class="line">Add the cooked and drained pasta to the skillet and stir to coat it in the sauce. YUM.</p><p class="line">Some days you just need pasta, you know?</p><p class="line">I like to add a little “sprankle” of fresh pepper over each bowl, too.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>*I use Better Than Bouillon to make my broth, which is less expensive than canned or boxed broths.</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

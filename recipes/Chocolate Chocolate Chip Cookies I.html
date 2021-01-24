@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://images.media-allrecipes.com/userphotos/560x315/480783.jpg">
+                <img src="Images/726B57AE-AE5E-4C1A-A749-7EB552B3B65C/9834CC75-142E-4017-89CB-3F07184EE4DC.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Chocolate Chocolate Chip Cookies I</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Baking, Desserts, Desserts, Quick</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">15 m</span>
+            <b>Cook Time: </b><span itemprop="">10 m</span>
+            <b>Servings: </b><span itemprop="">48</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.allrecipes.com/recipe/9827/chocolate-chocolate-chip-cookies-i/">
+                        <span itemprop="author">Allrecipes.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> cup butter, softened</p><p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> cups white sugar</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> eggs</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons vanilla extract</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups all-purpose flour</p><p class="line" itemprop="recipeIngredient"><strong>2/3</strong> cup cocoa powder</p><p class="line" itemprop="recipeIngredient"><strong>3/4</strong> teaspoon baking soda</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> teaspoon salt</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups semisweet chocolate chips</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup chopped walnuts (optional)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Preheat oven to 350 degrees F (175 degrees C).</p><p class="line">In large bowl, beat butter, sugar, eggs, and vanilla until light and fluffy. Combine the flour, cocoa, baking soda, and salt; stir into the butter mixture until well blended. Mix in the chocolate chips and walnuts. Drop by rounded teaspoonfuls onto ungreased cookie sheets.</p><p class="line">Bake for 8 to 10 minutes in the preheated oven, or just until set. Cool slightly on the cookie sheets before transferring to wire racks to cool completely.</p><p class="line">Footnotes</p><p class="line">Partner Tip</p><p class="line">Reynolds® Aluminum foil can be used to keep food moist, cook it evenly, and make clean-up easier.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>Per Serving: 125 calories; 7.1 g fat; 15.5 g carbohydrates; 1.5 g protein; 18 mg cholesterol; 63 mg sodium. Full nutrition</p>
+    </div>
+</div>
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

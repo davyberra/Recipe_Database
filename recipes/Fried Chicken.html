@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.seriouseats.com/recipes/images/2015/07/20150715-fried-chicken-21-750x563.jpg">
+                <img src="Images/671038AF-4333-44CE-BF46-48B1FD8C1E24/C827516B-B9DE-4E97-BD48-D3959326AB93.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Fried Chicken</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Entrees/Full Meals</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">45 minutes</span>
+            <b>Cook Time: </b><span itemprop="">at least 5 hours and up to overnight</span>
+            <b>Servings: </b><span itemprop="">Serves 3 to 4</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.seriouseats.com/recipes/2015/07/the-food-lab-southern-fried-chicken-recipe.html">
+                        <span itemprop="author">Seriouseats.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons paprika</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons freshly ground black pepper</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons garlic powder</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons dried oregano</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> teaspoon cayenne pepper</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup buttermilk</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> large egg</p><p class="line" itemprop="recipeIngredient">Kosher salt</p><p class="line" itemprop="recipeIngredient">One whole chicken, about 4 pounds, cut into 10 pieces or 3 1/2 pounds bone-in, skin-on breasts, legs, drumsticks, and/or wings</p><p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> cups all-purpose flour</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup cornstarch</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon baking powder</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> cups vegetable shortening or peanut oil</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">1. Combine the paprika, black pepper, garlic powder, oregano, and cayenne in a small bowl and mix thoroughly with a fork.</p><p class="line">2. Whisk the buttermilk, egg, 1 tablespoon salt, and 2 tablespoons of the spice mixture in a large bowl. Add the chicken pieces and toss and turn to coat. Transfer the contents of the bowl to a gallon-sized zipper-lock freezer bag and refrigerate for at least 4 hours, and up to overnight, flipping the bag occasionally to redistribute the contents and coat the chicken evenly.</p><p class="line">3. Whisk together the flour, cornstarch, baking powder, 2 teaspoons salt, and the remaining spice mixture in a large bowl. Add 3 tablespoons of the marinade from the zipper-lock bag and work it into the flour with your fingertips. Remove one piece of chicken from the bag, allowing excess buttermilk to drip off, drop the chicken into the flour mixture, and toss to coat. Continue adding chicken pieces to the flour mixture one at a time until they are all in the bowl. Toss the chicken until every piece is thoroughly coated, pressing with your hands to get the flour to adhere in a thick layer.</p><p class="line">4. Adjust an oven rack to the middle position and preheat the oven to 350°F. Heat the shortening or oil to 425°F in a 12-inch straight-sided cast-iron chicken fryer or a large wok over medium-high heat. Adjust the heat as necessary to maintain the temperature, being careful not to let the fat get any hotter.</p><p class="line">5. One piece at a time, transfer the coated chicken to a fine-mesh strainer and shake to remove excess flour. Transfer to a wire rack set on a rimmed baking sheet. Once all the chicken pieces are coated, place skin side down in the pan. The temperature should drop to 300°F; adjust the heat to maintain the temperature at 300°F for the duration of the cooking. Fry the chicken until it’s a deep golden brown on the first side, about 6 minutes; do not move the chicken or start checking for doneness until it has fried for at least 3 minutes, or you may knock off the coating. Care- fully flip the chicken pieces with tongs and cook until the second side is golden brown, about 4 minutes longer.</p><p class="line">6. Transfer the chicken to a clean wire rack set on a rimmed baking sheet and place in the oven. Cook until an instant-read thermometer inserted into the thickest part of the breast registers 150°F and the legs register 165°F, 5 to 10 minutes; remove the chicken pieces to a second rack or a paper-towel-lined plate as they reach their final temperature. Season with salt and serve—or, for extra-crunchy fried chicken, go to step 7.</p><p class="line">7. Place the plate of cooked chicken in the refrigerator for at least 1 hour, and up to overnight. When ready to serve, reheat the oil to 400°F. Add the chicken pieces and cook, flipping them once halfway through cooking, until completely crisp, about 5 minutes. Transfer to a wire rack set on a rimmed baking sheet to drain, then serve immediately.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

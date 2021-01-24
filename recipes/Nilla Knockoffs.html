@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.seriouseats.com/recipes/images/2012/01/20111231nillapile610-200x150.jpg">
+                <img src="Images/0CDEDEBE-ACF8-4B8A-879C-AEA6918E427C/2BF5B5C5-4310-4F63-BE17-9BF96EA93305.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Nilla Knockoffs</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Desserts, Desserts</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">20 minutes</span>
+            <b>Cook Time: </b><span itemprop="">45 minutes</span>
+            <b>Servings: </b><span itemprop="">100 tiny cookies</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.seriouseats.com/recipes/2012/01/homemade-vanilla-wafers-nilla-wafer-knockoffs-copycat-recipe.html">
+                        <span itemprop="author">Seriouseats.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>8</strong> ounces flour</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> ounces unsalted butter</p><p class="line" itemprop="recipeIngredient"><strong>3 1/2</strong> ounces sugar</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> ounce honey</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> teaspoon baking soda</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> teaspoon salt</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> ounce vanilla extract</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> egg yolks</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> ounces cream, plus extra for washing</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line"><strong>1. Make the cookie batter:</strong></p><p class="line">Preheat the oven to 325°F and line two cookie sheets with parchment, set aside.</p><p class="line">Sift the flour in a sieve.</p><p class="line">With a hand or stand mixer (fitted with a paddle attachment), cream together the butter, sugar, honey, baking soda, salt and vanilla extract. Cream for about 5 minutes on medium speed, until light and fluffy. About halfway through the mixing, scrape the bowl down with a rubber spatula.</p><p class="line">After 5 minutes, with the mixer still running, add the eggs yolks, one at a time. Let each addition fully incorporate before adding the next.</p><p class="line">Turn the mixer to low and add in the flour all at once. While it is mixing, drizzle in the cream. Continue mixing until homogenous. Use a rubber spatula to transfer the batter to a piping bag, fitted with a 1/2&quot; plain tip.</p><p class="line"><strong>2. Pipe and bake the cookies:</strong></p><p class="line">Pipe the cookies into 1&quot; wide rounds on the prepared cookie sheets. Don&apos;t worry if they have little peaks, you&apos;ll fix those later. Just try to keep the cookies all roughly the same size to ensure even baking.</p><p class="line">Once all of the cookies have been piped, brush each one lightly with a pastry brush dipped in cream. You&apos;re not looking to coat the cookies, but to smooth the peaks down and give them an even, smooth surface texture.</p><p class="line">Once the cookies have been brushed, bake approximately 18 minutes or until the cookies are firm to the touch and golden brown. To make perfectly round wafers, use a 1 1/2&quot; cookie cutter to trim each cookie before they cool.</p><p class="line">Transfer the cookies, while still slightly warm, to an airtight container and seal. This will slightly steam the cookies and give them that less than crisp Nilla texture. If you prefer a crisper wafer, allow the cookies to cool completely before storing.</p><p class="line">The cookies will keep, at room temperature, for several weeks.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>
