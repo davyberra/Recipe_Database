@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import os
+import logging
 from pathlib import Path
 from mysql.connector import Error
 
@@ -11,18 +12,17 @@ def pull_ingredients(folder):
     for file in os.listdir(recipe_folder):
 
         recipe_path = recipe_folder / Path(file)
-        recipe = open(recipe_path)
+        recipe = open(recipe_path, encoding="utf-8")
         try:
             soup = BeautifulSoup(recipe, 'html.parser')
             ingredients = soup.select('p[itemprop="recipeIngredient"]')
-            ingredient_list = {}
-            ingredient_list[recipe_path.stem] = []
+            recipe_ingredient_dict = {recipe_path.stem: ''}
             for ingredient in ingredients:
-                ingredient_list[recipe_path.stem].append(ingredient.text)
-            recipe_list.append(ingredient_list)
+                recipe_ingredient_dict[recipe_path.stem] += f'\n- {ingredient.text}'
+            recipe_list.append(recipe_ingredient_dict)
             recipe.close()
-        except:
-            print(f"Uh-oh. A problem occurred with '{recipe_path.stem}'.")
+        except (AttributeError, KeyError) as ex:
+            logging.exception("message")
 
 
     return recipe_list

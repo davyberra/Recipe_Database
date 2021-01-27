@@ -12,6 +12,12 @@ CREATE TABLE Recipe (
  );
 """
 
+alter_recipe_table = """
+ALTER TABLE recipe 
+ADD ingredients VARCHAR(1000);
+"""
+
+
 create_ingredient_table = """
 CREATE TABLE Ingredient (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -46,13 +52,15 @@ VALUES ('Paneer')
 
 def add_recipes(recipe_list, c):
     for recipe in recipe_list:
-        for name in recipe.keys():
+        for key in recipe:
             try:
                 query = f"""
-                INSERT INTO recipe (name)
-                VALUES ('{name}')
+                INSERT INTO recipe (name, ingredients)
+                VALUES ('{key}', '{recipe[key]}');
                 """
+
                 execute_query(c, query)
+
             except Error as e:
                 print(f"The error '{e}' for recipe '{name}' has occured.")
 
@@ -61,6 +69,7 @@ def main():
 
     recipe_list = pull_ingredients('recipes')
     add_recipes(recipe_list, connection)
+
 
 if __name__ == '__main__':
     main()
